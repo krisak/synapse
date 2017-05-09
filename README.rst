@@ -326,6 +326,10 @@ Matrix provides official Debian packages via apt from http://matrix.org/packages
 Note that these packages do not include a client - choose one from
 https://matrix.org/docs/projects/try-matrix-now.html (or build your own with one of our SDKs :)
 
+Note: For URL previews to work you have to have python-lxml and python-netaddr dependencies installed.
+  
+  sudo apt install python-lxml python-netaddr
+
 Fedora
 ------
 
